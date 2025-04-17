@@ -1,0 +1,12 @@
+// Customize theme variables
+$secondary: yellow;
+$base-padding: 1rem;
+$base-border-thickness: 3px;
+
+// Import mythical UI and your terminal styles
+@use 'MinionUI';
+@use '../MythicalUI/components/terminal';
+@use '../MythicalUI/components/pagination';
+@use '../MythicalUI/components/table';
+@use '../MythicalUI/code';
+@use '../MythicalUI/layout';
